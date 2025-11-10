@@ -65,11 +65,10 @@ def consultar_sisben(doc):
             driver.switch_to.default_content()
             return None
 
-        municipio = driver.find_elements(By.CSS_SELECTOR, "p.campo1")[3].text.strip()
+        municipio = driver.find_elements(By.CSS_SELECTOR, ".campo1.pt-1.pl-2.font-weight-bold")[4].text.strip()
         nivel = driver.find_element(By.CSS_SELECTOR, "p.text-uppercase.font-weight-bold.text-white").text.strip()
         driver.switch_to.default_content()
-        return f"SI {municipio} / {nivel}"
-
+        return f"SI {municipio}.upper() Nivel: {nivel}"
     except Exception as e:
         driver.switch_to.default_content()
         print(f"Error consultando {doc}: {e}")
