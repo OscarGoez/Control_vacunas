@@ -1,8 +1,8 @@
 import openpyxl
 
 # Archivos origen y destino
-archivo_origen = r"D:\dev\Control_vacunas\BASE DE DATOS GARANTIA DE DERECHOS SEMILLAS.xlsx"
-archivo_destino = r"D:\dev\Control_vacunas\DATA_FAKE.xlsx"
+archivo_origen = r"X:Control_vacunas\BASE DE DATOS GARANTIA DE DERECHOS SEMILLAS.xlsx"
+archivo_destino = r"X:Control_vacunas\DATA_FAKE.xlsx"
 
 # Cargar ambos libros
 hoja_origen_nombre = "CUNAS 1"
