@@ -8,7 +8,7 @@ fake = Faker('es_CO')
 # Configuración de número de hojas y registros
 num_hojas = 5
 registros_por_hoja = 30
-nombre_archivo = r"D:\dev\Control_vacunas\CUNAS_DATOS_FICTICIOS.xlsx"
+nombre_archivo = r"X:Control_vacunas\CUNAS_DATOS_FICTICIOS.xlsx"
 
 # Función para generar datos ficticios
 def generar_datos_ficticios(n):
