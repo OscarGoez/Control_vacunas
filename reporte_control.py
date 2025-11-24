@@ -34,7 +34,7 @@ PROFESORES = {
 # LECTURA DE ARCHIVO EXCEL
 
 print("Cargando archivo Excel con todas las hojas...")
-archivo = r"D:\dev\Control_vacunas\DATA_FAKE.xlsx"
+archivo = r"X:Control_vacunas\DATA_FAKE.xlsx"
 excel = pd.read_excel(archivo, sheet_name=None)  # Cargar todas las hojas
 
 
